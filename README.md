@@ -1,5 +1,5 @@
 # TwitterScraper
-Scraping twitter data and hastag frequency using Tweepy
+Scraping twitter data and hashtag frequency using Tweepy
 
 ### Scraping With Tweepy
 
