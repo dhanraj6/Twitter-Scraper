@@ -46,6 +46,7 @@ class TwitterScrapper:
 
         print("Closing Twitter")
 
+#Add your api related details below
 consumerKey = ' enter your consumer key '
 consumerSecret = 'enter your consumerSecret '
 accessToken = 'enter your accessToken'
