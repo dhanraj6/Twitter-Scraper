@@ -3,10 +3,11 @@ import os, time, urllib.request, operator, tweepy
 
 class TwitterScrapper:
 
-    def Scrape_Twitter(self, consumerKey, consumerSecret, accessToken, accessTokenSecret, tag, limit=20, lang='en',path="/"):
+    def Scrape_Twitter(self, consumerKey, consumerSecret, accessToken, accessTokenSecret,tag):
 
         print("Starting Scrapping Twitter")
-
+        limit=20
+        lang='en'
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(auth)
@@ -58,4 +59,4 @@ accessTokenSecret = 'enter your accessTokenSecret'
 keyword = str(input("Enter keyword to search for: "))
 twitter_limit = int(input("Enter how many posts to scrape from Twitter: "))
 twitter = TwitterScrapper()
-twitter.Scrape_Twitter(Consumer_Key=consumerKey,Consumer_Secret=consumerSecret,Access_Token=accessToken,Access_Token_Secret=accessTokenSecret,tag=keyword,limit=twitter_limit,lang='en')  
+twitter.Scrape_Twitter(consumerKey,consumerSecret,accessToken,accessTokenSecret,keyword)  
