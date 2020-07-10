@@ -44,8 +44,8 @@ class TwitterScrapper:
         time.sleep(1)
 
         print("Closing Twitter")    
-        pd.DataFrame(hastag_data).to_csv(path+'/Scrapped Reviews/Trending_hastag.csv', index=0)
-        pd.DataFrame(Reviewer_data).to_csv(path+'/Scrapped Reviews/twitterdata.csv', index=0)
+        pd.DataFrame(hastag_data).to_csv(hastagdata.csv, index=0)
+        pd.DataFrame(Reviewer_data).to_csv(twitterdata.csv, index=0)
 
         print("Closing Twitter")
 
