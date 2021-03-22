@@ -10,5 +10,6 @@ In order to receive credentials, you must apply to become a Twitter developer [h
 Get api related keys like consumerKey, consumerSecret, accessToken, accessTokenSecret from your account and enter it in above .py file and run the file.
 
 
+## If it helped you!
 
-
+<a href="https://www.buymeacoffee.com/dhanr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
